@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "PHOOL™ Silver Leaves | 99.9% Pure Edible Silver Vark",
   description:
     "PHOOL Silver Leaves - premium 99.9% pure edible silver vark. Touchless computerized process, FSSAI Certified, 100% vegetarian. Moradabad, Uttar Pradesh.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({

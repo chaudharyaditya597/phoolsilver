@@ -7,7 +7,7 @@ interface SilverLotusLogoProps {
   size?: number;
 }
 
-export default function SilverLotusLogo({ className = "", size = 48 }: SilverLotusLogoProps) {
+export default function SilverLotusLogo({ className = "", size = 120 }: SilverLotusLogoProps) {
   return (
     <Image
       src="/brand/phool-logo.png"
@@ -15,7 +15,7 @@ export default function SilverLotusLogo({ className = "", size = 48 }: SilverLot
       width={size}
       height={size}
       priority
-      className={`inline-block rounded-full object-cover ${className}`}
+      className={`inline-block object-cover ${className}`}
     />
   );
 }
