@@ -15,7 +15,7 @@ const products: Product[] = [
   { name: "PHOOL Pure Silver Vark Pack [60 Number]", image: "/60.png", landscape: false },
   { name: "PHOOL Pure Silver Vark Pack [90 Number]", image: "/90.png", landscape: false },
   { name: "PHOOL Pure Silver Vark Pack [120 Number]", image: "/120.png", landscape: false },
-  { name: "PHOOL Commercial Manufacturer Pack", image: "/30.png", landscape: false },
+  { name: "PHOOL Commercial Manufacturer Pack", image: "/random.png", landscape: false },
 ];
 
 export default function ProductCatalog({ onOpenInquiry }: { onOpenInquiry: (productName?: string) => void }) {
